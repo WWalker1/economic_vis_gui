@@ -1,32 +1,35 @@
 # Cobb-Douglas Utility Optimizer
 
-This project provides a tool for optimizing Cobb-Douglas utility functions under budget or utility constraints. It includes functionality for calculating optimal consumption bundles and visualizing indifference curves.
+This project provides tools for optimizing and visualizing Cobb-Douglas utility functions, allowing users to perform cost minimization and utility maximization analyses.
 
 ## Current Features
 
-- Calculation of optimal consumption bundles for Cobb-Douglas utility functions
-- Support for both budget and utility constraints
-- Utility calculation for given quantities and parameters
-- Visualization of indifference curves
-
-## Implemented Functions
-
-- `optimal_bundle`: Calculates the optimal consumption bundle
-- `calculate_utility`: Computes utility for given quantities and parameters
-- `plot_indifference_curves`: Visualizes indifference curves for specified utility levels
+- Core economic functions:
+  - `optimal_bundle`: Calculate the optimal consumption bundle given constraints
+  - `calculate_utility`: Compute utility for given quantities of goods
+- Visualization:
+  - `plot_indifference_curves`: Plot multiple indifference curves for a Cobb-Douglas utility function
 
 ## Upcoming Features
 
 - Graphical User Interface (GUI) for easy interaction
-- Budget line visualization
-- Integration of optimization and visualization in the GUI
-- Additional economic calculations (e.g., marginal rate of substitution)
+- Additional economic functions:
+  - Calculate cost
+  - Compute Lagrangian multiplier
+  - Generate budget line data
+- Enhanced visualizations:
+  - Combined plot of indifference curves and budget line
+  - Interactive plots
 - Comprehensive error handling and input validation
-- User guide and documentation
+- Detailed documentation and user guide
 
-## Getting Started
+## Installation
 
-(Instructions for setting up and running the project will be added here)
+(Instructions for installation will be added once the project is more complete)
+
+## Usage
+
+(Examples of how to use the functions will be provided here)
 
 ## Contributing
 
@@ -34,4 +37,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License.
